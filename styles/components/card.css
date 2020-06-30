@@ -1,0 +1,128 @@
+.card-image {
+}
+.card-popular {
+  overflow: hidden;
+  border: 1px solid transparent;
+  border-radius: 34px;
+}
+.review-item {
+  display: flex;
+
+  align-items: center;
+  margin: 27px 0 15px 0;
+}
+.reviews {
+  font-size: 13px;
+  line-height: 15px;
+  padding-left: 10px;
+  color: #888ea0;
+}
+.star {
+  display: flex;
+  width: auto;
+}
+.rating {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 18px;
+}
+.card-body {
+  background-color: #ffffff;
+  padding: 0 18px 30px;
+  text-align: left;
+}
+.footer-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.duration {
+  font-size: 13px;
+  line-height: 15px;
+
+  color: #888ea0;
+}
+.cost {
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #373f55;
+}
+.card-description {
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #464649;
+}
+.card-title {
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #373f55;
+}
+.card-daily {
+  box-shadow: 4px 4px 46px rgba(10, 34, 67, 0.07);
+}
+.card-reviews {
+  border-radius: 34px;
+  padding: 22px;
+  border: 1px solid transparent;
+  background-color: #fff;
+}
+.star-reviews {
+  width: 16px;
+  height: 16px;
+}
+.card-header-items {
+  display: flex;
+  white-space: nowrap;
+}
+.card-header {
+  display: flex;
+  justify-content: space-between;
+}
+.name-reviews {
+  margin-left: 20px;
+}
+.name {
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+  margin: 0;
+  text-align: left;
+  font-weight: bold;
+}
+.city {
+  font-size: 13px;
+  line-height: 18px;
+  color: #888ea0;
+  margin: 0;
+  text-align: left;
+}
+.people {
+  border: 1px solid transparent;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.card-reviews-description {
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+  text-align: left;
+}
+.view-more {
+  display: flex;
+  justify-content: flex-end;
+}
+.view-more-link {
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #0f2d47;
+  font-weight: bold;
+}
+.view-more-link:hover {
+  text-decoration-line: none;
+}

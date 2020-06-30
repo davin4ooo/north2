@@ -1,0 +1,124 @@
+/* Слайдер */
+.slick-slider {
+}
+/* Слайдер запущен */
+.slick-slider.slick-initialized {
+}
+/* Слайдер с точками */
+.slick-slider.slick-dotted {
+}
+/* Ограничивающая оболочка */
+
+/* Слайд */
+.slick-slide {
+}
+/* Слайд активный (показывается) */
+.slick-slide.slick-active {
+}
+/* Слайд основной */
+.slick-slide.slick-current {
+}
+/* Слайд по центру */
+.slick-slide.slick-center {
+}
+/* Клонированный слайд */
+.slick-slide.slick-cloned {
+}
+/* Стрелка */
+
+/* Стрелка влево */
+.slick-arrow.slick-prev {
+}
+/* Стрелка вправо */
+.slick-arrow.slick-next {
+}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled {
+}
+/* Точки (булиты) */
+.slick-dots {
+}
+.slick-dots li {
+}
+/* Активная точка */
+.slick-dots li.slick-active {
+}
+/* Элемент точки */
+.slick-dots li button {
+}
+
+.slider {
+  overflow: hidden;
+  position: relative;
+  padding: 0 15px;
+}
+.arrow-next {
+  position: absolute;
+  right: 2%;
+  top: 50%;
+  z-index: 10;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 23px 0 0 0;
+  background: #ffffff;
+  box-shadow: 4px 4px 46px rgba(10, 34, 67, 0.07);
+}
+.arrow-prev {
+  position: absolute;
+  top: 50%;
+  left: 2%;
+  z-index: 10;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 23px 0 0 0;
+  background: #ffffff;
+  box-shadow: 4px 4px 46px rgba(10, 34, 67, 0.07);
+}
+.slider-item {
+  border-radius: 34px;
+  padding: 0 17px;
+}
+.slick-list {
+  overflow: hidden;
+  background-color: #f2f7ff;
+}
+
+.slick-track {
+  display: flex;
+}
+
+.review-arrow-next {
+  border: 1px solid transparent;
+  border-radius: 50%;
+  padding: 17px;
+  margin: 28px 0 0 14px;
+  background: #ffffff;
+  box-shadow: 4px 4px 46px rgba(10, 34, 67, 0.07);
+}
+.review-arrow-prev {
+  border: 1px solid transparent;
+  border-radius: 50%;
+  padding: 17px;
+  margin: 28px 14px 0 0;
+  background: #ffffff;
+  box-shadow: 4px 4px 46px rgba(10, 34, 67, 0.07);
+}
+@media (min-width: 500px) {
+  .slider {
+    padding: 0 45px;
+  }
+  .arrow-next {
+    padding: 17px;
+  }
+  .arrow-prev {
+    padding: 17px;
+  }
+}
+
+@media (min-width: 980px) {
+  .slider {
+    padding: 0 95px;
+  }
+}

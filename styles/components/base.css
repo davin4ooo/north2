@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+*:last-child {
+  margin-bottom: 0;
+}
+html {
+  font-family: "Gilroy";
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+}
+
+.wrapper {
+  position: relative;
+  overflow: hidden;
+}
+.container {
+}
+
+a {
+  color: #3c3c3c;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+figure {
+  margin: 0;
+}
+
+p,
+ul,
+ol {
+  margin: 0 0 16px 0;
+}
+
+* + p,
+* + ul,
+* + ol {
+  margin-top: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 0.67em 0;
+}
+
+* + h1,
+* + h2,
+* + h3,
+* + h4,
+* + h5,
+* + h6 {
+  margin-top: 0.67em;
+}

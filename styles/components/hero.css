@@ -1,0 +1,48 @@
+.container-hero {
+  max-width: 799px;
+  margin: 0 auto;
+  padding: 25px 0;
+}
+.hero-title {
+  font-size: 50px;
+  line-height: 50px;
+  color: #ffffff;
+  padding: 0 16px;
+  margin-bottom: 15px;
+}
+.hero-description {
+  font-size: 16px;
+  line-height: 23px;
+  max-width: 653px;
+  color: #ffffff;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.hero-description {
+  margin-bottom: 25px;
+}
+@media (min-width: 480px) {
+  .hero-title {
+    font-size: 70px;
+    line-height: 80px;
+  }
+  .container-hero {
+    padding: 65px 0;
+  }
+  .hero-description {
+    margin-bottom: 35px;
+  }
+}
+
+@media (min-width: 660px) {
+  .hero-title {
+    font-size: 90px;
+    line-height: 110px;
+  }
+  .container-hero {
+    padding: 195px 0;
+  }
+  .hero-description {
+    margin-bottom: 45px;
+  }
+}
