@@ -1,3 +1,22 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("../../fonts/gilroy-Light.eot");
+  src: local("☺"), url("../../fonts/gilroy-light.woff") format("woff"),
+    url("../../fonts/gilroy-light.ttf") format("truetype"),
+    url("../../fonts/gilroy-light.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../../fonts/gilroy-extraBold.eot");
+  src: local("☺"), url("../../fonts/gilroy-extrabold.woff") format("woff"),
+    url("../../fonts/gilroy-extrabold.ttf") format("truetype"),
+    url("../../fonts/gilroy-Extrabold.svg") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+
 * {
   box-sizing: border-box;
 }
